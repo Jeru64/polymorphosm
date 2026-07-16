@@ -1,0 +1,11 @@
+class Reverse:
+    def __init__(self, s="default"):
+        self.s = s
+
+    def rev(self):
+        return self.s[::-1]
+
+# Take input from user and set it to the class instance
+word = input()
+obj = Reverse(word)
+print(obj.rev())
