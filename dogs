@@ -1,0 +1,19 @@
+class Dog:
+    def __init__(self, breed, color):
+        self.animal = "Dog"      # Class variable inside constructor
+        self.breed = breed       # Instance variable
+        self.color = color       # Instance variable
+
+    def display_details(self):
+        print("Animal:", self.animal)
+        print("Breed:", self.breed)
+        print("Color:", self.color)
+        print()
+
+# Create two Dog objects with different breeds and colors
+dog1 = Dog("Labrador", "Yellow")
+dog2 = Dog("German Shepherd", "Black and Tan")
+
+# Display details for both dogs
+dog1.display_details()
+dog2.display_details()
